@@ -1,7 +1,8 @@
 /*=================================
  * Just Pico Theme
- * By: Mattia Roccoberton
+ * By: Mattia Roccoberton 
  * http://blocknot.es
+ * Giotex_Mod: Victor Cauich
  *=================================*/
 
 * {
@@ -15,7 +16,7 @@ body {
 }
 
 a {
-  color: #48f;
+  color: #19967b;
   text-decoration: none;
 }
 
@@ -72,7 +73,7 @@ This is the parent `<div>` that contains the menu and the content area.
 }
 .header h2 {
   font-weight: 300;
-  color: #ccc;
+  color: #2f7769ab;
   padding: 0;
   margin-top: 0;
 }
@@ -136,7 +137,7 @@ Change color of the anchor links on hover/focus.
 #menu .pure-menu li a:hover,
 #menu .pure-menu li a:focus {
   background: transparent;
-  color: #fc0;
+  color: #16dbb0;
 }
 
 /*
@@ -144,7 +145,7 @@ This styles the selected menu item `<li>`.
 */
 #menu .pure-menu-selected,
 #menu .pure-menu-heading {
-  background: #1f8dd6;
+  background: #307062;
 }
 
 /*
@@ -408,7 +409,7 @@ small screens.
   text-align: center;
 }
 #footer a {
-  color: #008;
+  color: #16dbb0;
   text-decoration: none;
 }
 

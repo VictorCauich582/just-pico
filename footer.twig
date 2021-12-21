@@ -1,7 +1,11 @@
     <footer id="footer" class="pure-g">
       <div class="inner pure-u-1">
-        Derechos reservados <a href="http://wwww.giotex.com.mx">Giotex</a> bajo licencia &#169
-        Copyright 2021</a>.
+        {% if meta.Footr %}
+          <p>{{ meta.Footr }}</p>
+        {% else %}
+          Powered by <a href="http://picocms.org/">Pico</a> CMS &ndash;
+          With Just Pico template by <a href="http://blocknot.es">mat</a>.
+        {% endif %}
       </div>
     </footer>
   </div> <!-- layout closing -->
