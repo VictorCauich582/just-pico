@@ -343,7 +343,12 @@ small screens.
 .post-title a {
   color: #222;
 }
-
+.index .meta-time {
+  color: #aaa;
+  float: right;
+  font-size: 12px;
+  margin: 0 -15px 0 0
+}
 /*
  * Blog-item template
  */

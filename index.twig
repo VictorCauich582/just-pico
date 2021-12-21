@@ -13,6 +13,7 @@
     </div>
     {% endif %}
     <div class="content">
+      <span class="index meta-time">{{ meta.time | date( 'j M Y' ) }}</span>
       {{ content }}
     </div>
   </main>
