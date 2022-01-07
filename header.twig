@@ -25,7 +25,11 @@
     </a>
     <header id="menu">
       <div class="pure-menu">
+      {% if meta.url %}
+        <a id="logo" class="pure-menu-heading" href="{{ meta.url }}">        
+      {% else %}
         <a id="logo" class="pure-menu-heading" href="{{ 'index'|link }}">
+      {% endif %}
           {% if meta.logo %}
             <img src="{{ base_url }}/assets/images/{{meta.logo}}" alt="{{ site_title }}"/>
             <h5>{{meta.norm}}</h5>
@@ -34,6 +38,7 @@
            <h5>{{meta.norm}}</h5>
           {% endif %}
         </a>
+
         <!-- <h4>{{ meta.subtitle }}</h4> -->
         <ul class="pure-menu-list">
           {% for page in pages if page.title %}
