@@ -24,6 +24,10 @@ A simple Pico CMS theme made with PureCSS
 Optionally set a logo in config.php file: `$config['site_logo'] = 'logo.png';`
 The image file should be put in pico path: 'assets/images/logo.png'
 
+## NEW
+for usage logo insert in index.md the option logo: 'name_of_logo.extension'
+The image file should be put in pico path: assets/images/logo.extension
+
 There are 4 template files available:
 
 - **index**: for standard pages
